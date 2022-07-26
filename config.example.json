@@ -1,0 +1,37 @@
+{
+  "servers": [
+    {
+      "name": "DarkestDayZ Chernarus",
+      "serverApiId": "CFTOOLS APP ID",
+      "connect": {
+        "ip": "141.95.127.186",
+        "port": 2302
+      },
+      "commands": {
+        "playerstats": {},
+        "leaderboard": {
+          "defaultStat": "kills",
+          "allowedStats": [
+            "kills",
+            "deaths",
+            "playtime",
+            "longest_kill",
+            "kdratio"
+          ]
+        }
+      }
+    }
+  ],
+  "discord": {
+    "token": "DISCORD SECRET TOKEN", 
+    "author": "DarkestDayZ", 
+    "guild": {
+      "id": "DISCORD SERVER ID" 
+    },
+    "presence": false 
+  },
+  "cftools": {
+    "applicationId": "CFTOOLS APP ID",
+    "secret": "CFTOOLS APP ID"
+  }
+}
